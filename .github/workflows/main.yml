@@ -59,7 +59,7 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: my-artifact
-        path: AssetStudioGUI\bin\Release\net472
+        path: AssetStudioGUI\bin\Release
 
     # 执行单元测试
     #- name: Execute unit tests
