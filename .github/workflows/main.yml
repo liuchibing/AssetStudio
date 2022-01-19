@@ -25,7 +25,7 @@ jobs:
 
     - name: Install FBX SDK
       run: |
-        (new-object System.Net.WebClient).DownloadFile("https://damassets.autodesk.net/content/dam/autodesk/www/adn/fbx/2020-0-1/fbx202001_fbxsdk_vs2017_win.exe", "./fbxsdk.exe")
+        (new-object System.Net.WebClient).DownloadFile("https://www.autodesk.com/content/dam/autodesk/www/adn/fbx/2020-2-1/fbx202021_fbxsdk_vs2019_win.exe", "./fbxsdk.exe")
         Start-Process -FilePath "./fbxsdk.exe" /S -Wait
       # ls "C:\Program Files\Autodesk\FBX\FBX SDK\2020.0.1\include"
     
